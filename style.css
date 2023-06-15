@@ -215,11 +215,11 @@ textarea {
     }
 
     .membership-text h6{
-        font-size: 1rem;
+        font-size: 1rem !important;
     }
 
     .lead {
-        font-size: 1rem;
+        font-size: 1rem !important;
     }
 
 }
