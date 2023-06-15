@@ -140,45 +140,12 @@ textarea {
     font-weight: bolder;
 }
 
-
-@media screen and (max-width: 767px) {
-    .elementor-widget-container {
-        padding: 50px 60px;
-    }
-}
-
-
-@media (max-width: 544px) {
-    .member-form .elementor-widget-container .head .formlogo {
-        height: 6rem !important;
-    }
-}
-
 @media (max-width: 921px) {
 
     .member-form .elementor-widget-container .head h2 {
         font-size: 30px !important;
     }
 }
-
-@media (max-width: 544px) {
-    .member-form .elementor-widget-container .head h2 {
-        font-size: 24px !important;
-    }
-}
-
-
-
-@media screen and (max-width : 345px) {
-    .image img {
-        width: 100%;
-    }
-
-    .social-icons a {
-        font-size: 0.4rem;
-    }
-}
-
 
 @media screen and (max-width : 840px) {
     .member-content>h6 {
@@ -194,8 +161,6 @@ textarea {
         height: fit-content;
         margin: 0px;
         justify-content: flex-start;
-        padding-bottom: 10vh;
-
     }
 
     .membership-poster {
@@ -205,5 +170,67 @@ textarea {
 
     .membership-text {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .elementor-widget-container {
+        padding: 50px 60px;
+    }
+}
+
+@media (max-width: 544px) {
+    .member-form .elementor-widget-container .head .formlogo {
+        height: 6rem !important;
+    }
+
+    .member-form .elementor-widget-container .head h2 {
+        font-size: 24px !important;
+    }
+}
+
+@media screen and (max-width: 415px) {
+
+    input[type=email],
+    input[type=number],
+    input[type=password],
+    input[type=reset],
+    input[type=search],
+    input[type=tel],
+    input[type=text],
+    input[type=url],
+    input[type=date],
+    input[type=file],
+    select,
+    textarea {
+        padding: 0.5em 0.6em !important;
+    }
+
+    .elementor-widget-container {
+        padding: 50px 30px;
+    }
+
+    .membership-text h1{
+        font-size: 24px;
+    }
+
+    .membership-text h6{
+        font-size: 1rem;
+    }
+
+    .lead {
+        font-size: 1rem;
+    }
+
+}
+
+
+@media screen and (max-width : 345px) {
+    .image img {
+        width: 100%;
+    }
+
+    .social-icons a {
+        font-size: 0.4rem;
     }
 }
