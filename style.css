@@ -190,7 +190,6 @@ textarea {
 }
 
 @media screen and (max-width: 415px) {
-
     input[type=email],
     input[type=number],
     input[type=password],
@@ -221,7 +220,6 @@ textarea {
     .lead {
         font-size: 1rem !important;
     }
-
 }
 
 
